@@ -1,0 +1,81 @@
+// Define some variables
+$primary-color: #1F2937;
+$text-color: #E5E7EB;
+$button-color: #3882F6;
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+#navbar {
+  // Styles for navbar
+}
+
+#navlogo {
+  // Styles for navlogo
+}
+
+#navbarlinks {
+  .navlinks {
+    // Styles for navlinks
+  }
+}
+
+#landing {
+  #landingleft {
+    // Styles for landingleft
+  }
+
+  #landingright {
+    // Styles for landingright
+  }
+}
+
+#content {
+  h2 {
+    // Styles for h2
+  }
+
+  #contentcontainer {
+    .contentbox {
+      // Styles for contentbox
+    }
+  }
+}
+
+#blockquote {
+  blockquote {
+    p {
+      // Styles for p
+    }
+
+    footer {
+      // Styles for footer
+    }
+  }
+}
+
+#calltoactioncontainer {
+  #calltoactionbox {
+    #calltoactionleft {
+      h3 {
+        // Styles for h3
+      }
+
+      p {
+        // Styles for p
+      }
+    }
+
+    #calltoactionbutton {
+      button {
+        // Styles for button
+      }
+    }
+  }
+}
+
+footer {
+  // Styles for footer
+}
