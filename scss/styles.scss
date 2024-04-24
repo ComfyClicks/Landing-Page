@@ -1,38 +1,75 @@
 // Define some variables
 $primary-color: #1F2937;
 $text-color: #E5E7EB;
-$button-color: #3882F6;
+$secondary-color: #3882F6;
 
 body {
-  background-color: $primary-color;
+  // background-color: $primary-color;
   color: $text-color;
+  margin: 0;
 }
 
-#navbar {
-  // Styles for navbar
+header {
+  display: flex;
+  background-color: $primary-color;
 }
 
 #navlogo {
-  // Styles for navlogo
+  height: 60px;
+  width: 150px;
+  margin: 1em 0 1em 5%;
 }
 
 #navbarlinks {
+  display: flex;
+  margin: 1em 5% 1em auto;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
   .navlinks {
-    // Styles for navlinks
+    color: $text-color;
+    font-size: 16px;
+    text-decoration: none;
   }
 }
 
 #landing {
+  background-color: $primary-color;
+  color: $text-color;
+  display: flex;
+  padding: 0 5em;
+  height: auto;
   #landingleft {
-    // Styles for landingleft
+    flex: 1;
+    margin: 2em;
+
+    p {
+      font-size: 16px;
+    }
+    button {
+      color: $text-color;
+      background-color: $secondary-color;
+      border-style: none;
+      border-radius: 5px;
+      width: 100px;
+      height: 30px;
+      font-size: 16px;
+    }
   }
 
   #landingright {
-    // Styles for landingright
+    flex: 1;
+    margin: 2em;
+  }
+
+  #placeholder {
+    max-width: 100%;
+    height: auto;
   }
 }
 
 #content {
+  background-color: cream;
   h2 {
     // Styles for h2
   }
@@ -69,8 +106,8 @@ body {
     }
 
     #calltoactionbutton {
-      button {
-        // Styles for button
+      secondary {
+        color: $secondary-color;
       }
     }
   }

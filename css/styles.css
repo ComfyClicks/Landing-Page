@@ -1,6 +1,69 @@
 body {
+  color: #E5E7EB;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #1F2937;
+}
+
+#navlogo {
+  height: 60px;
+  width: 150px;
+  margin: 1em 0 1em 5%;
+}
+
+#navbarlinks {
+  display: flex;
+  margin: 1em 5% 1em auto;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+#navbarlinks .navlinks {
+  color: #E5E7EB;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#landing {
   background-color: #1F2937;
   color: #E5E7EB;
+  display: flex;
+  padding: 0 5em;
+  height: auto;
+}
+#landing #landingleft {
+  flex: 1;
+  margin: 2em;
+}
+#landing #landingleft p {
+  font-size: 16px;
+}
+#landing #landingleft button {
+  color: #E5E7EB;
+  background-color: #3882F6;
+  border-style: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
+#landing #landingright {
+  flex: 1;
+  margin: 2em;
+}
+#landing #placeholder {
+  max-width: 100%;
+  height: auto;
+}
+
+#content {
+  background-color: cream;
+}
+#calltoactioncontainer #calltoactionbox #calltoactionbutton secondary {
+  color: #3882F6;
 }
 
 /*# sourceMappingURL=styles.css.map */
