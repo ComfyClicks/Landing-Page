@@ -1,0 +1,1 @@
+<h1>Landing Page created for The Odin Project</h1>
