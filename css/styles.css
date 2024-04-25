@@ -1,66 +1,88 @@
 body {
-  color: #E5E7EB;
   margin: 0;
 }
 
 header {
-  display: flex;
   background-color: #1F2937;
-}
-
-#navlogo {
-  height: 60px;
-  width: 150px;
-  margin: 1em 0 1em 5%;
-}
-
-#navbarlinks {
   display: flex;
-  margin: 1em 5% 1em auto;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 12px;
+  justify-content: center;
 }
-#navbarlinks .navlinks {
+header h1 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+header div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navlogo {
+  width: 150px;
+  height: 25px;
+  color: #F9FAF8;
+}
+header #navbarlinks {
+  display: flex;
+  gap: 15px;
+}
+header #navbarlinks .navlinks {
   color: #E5E7EB;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
 }
 
 #landing {
   background-color: #1F2937;
-  color: #E5E7EB;
   display: flex;
-  padding: 0 5em;
-  height: auto;
+  justify-content: center;
+  height: 475px;
+}
+#landing div {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 80%;
+  align-items: center;
 }
 #landing #landingleft {
+  display: flex;
   flex: 1;
-  margin: 2em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#landing #landingleft h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 0;
+  color: #F9FAF8;
 }
 #landing #landingleft p {
-  font-size: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 #landing #landingleft button {
   color: #E5E7EB;
   background-color: #3882F6;
   border-style: none;
-  border-radius: 5px;
-  width: 100px;
-  height: 30px;
+  border-radius: 7px;
+  width: 140px;
+  height: 35px;
   font-size: 16px;
 }
 #landing #landingright {
   flex: 1;
-  margin: 2em;
 }
 #landing #placeholder {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 #content {
   background-color: cream;
+}
+#content h2 {
+  text-align: center;
+  color: #1F2937;
 }
 #calltoactioncontainer #calltoactionbox #calltoactionbutton secondary {
   color: #3882F6;
